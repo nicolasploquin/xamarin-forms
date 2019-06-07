@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BanqueForms.App">
+	<Application.Resources>
+
+		<!-- Application resource dictionary -->
+        <ResourceDictionary>
+
+            <Color x:Key="PageBackgroundColor">#ffff00</Color>
+            <Style x:Key="MonStyleLabel" TargetType="Label">
+                <Setter Property="TextColor" Value="#003399" />
+            </Style>
+            
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>

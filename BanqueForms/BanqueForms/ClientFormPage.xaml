@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BanqueForms.ClientFormPage"
+             Title="Nouveau Client"
+             BackgroundColor="{StaticResource PageBackgroundColor}">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Nouveau"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="CenterAndExpand"
+                       Style="{StaticResource MonStyleLabel}"/>
+                <Label Text="Nom" />
+                <Entry x:Name="NomEntry" Text="" />
+                <Label Text="Prénom" />
+                <Entry x:Name="PrenomEntry" Text="" />
+                <Label Text="Téléphone" />
+                <Entry x:Name="TelEntry" Text="" Keyboard="Telephone"
+                        VerticalOptions="StartAndExpand" />
+                <Button Text="Enregistrer" Clicked="Enregistrer" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
